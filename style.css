@@ -1,0 +1,85 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#baner{
+    width: 100%;
+    height: 200px;
+    background-color: #4A90E2;
+             opacity: 0;
+         animation: fadeIn 1s ease-in forwards;
+        box-shadow: inset 4px 4px 8px rgba(0,0,0,0.3);
+        justify-content: space-between;
+     }
+     @keyframes fadeIn {
+         to { opacity: 1; }
+        
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+   
+}
+
+li{
+    text-decoration: none;
+    margin: 1%;
+    font-size: 30px;
+    margin-top: 8%;
+   
+}
+
+a:hover{
+    color: black;
+    background-color: whitesmoke; 
+    transform: scale(1.18, 1.28);
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.2);
+    padding: 14px 26px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    font-family: "Alan Sans", sans-serif;
+    display:inline-block; 
+    padding: 10px 20px;
+}
+
+body{
+    background: #F8F9FA;
+}
+
+p{
+    font-family: "Alan Sans", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 10mm;
+    color: #2C3E50;
+    line-height: 1.5;
+}
+
+#pre{
+    width: 100%;
+    background-color: #E8F4FD;
+    height: 180px;
+    text-align: center;
+    box-shadow: inset 0px 2px 1px rgba(137, 136, 136, 0.5);
+}
+
+h1{
+    font-family: "Alan Sans", sans-serif;
+    margin-top: 1in;
+    text-align: center;
+}
+
