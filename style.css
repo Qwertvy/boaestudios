@@ -61,7 +61,7 @@ body{
 p{
     font-family: "Alan Sans", sans-serif;
     font-style: normal;
-    font-size: 30px;
+    font-size: 1.8rem;
     text-align: center;
     padding: 10px;
     margin: 10mm;
@@ -81,5 +81,33 @@ h1{
     font-family: "Alan Sans", sans-serif;
     margin-top: 1in;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    li {
+        font-size: 18px;
+        margin-top: 5%;
+        margin: 5px;
+    }
+
+    ul {
+        flex-direction: column;   /* menú en columna */
+        align-items: center;
+    }
+
+    a {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    #baner {
+        height: 18vh;
+    }
+
+    #pre {
+        height: auto; /* se ajusta al contenido */
+        padding: 20px 0;
+    }
 }
 
