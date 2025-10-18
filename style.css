@@ -83,31 +83,43 @@ h1{
     text-align: center;
 }
 
+.cuadro {
+  background-color: rgb(232, 218, 178);
+  padding: 20px;
+  width: 30vb; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-size: cover;
+  height: 30vh;
+  margin: 0 auto;
+  margin-top: 10vh;
+  
+}
+
+h3{
+    font-family: "Alan Sans", sans-serif;
+    margin-top: 1in;
+    text-align: center;
+    font-size: 2em;
+}
+
+#logo{
+    background-image: url(boa.png);
+}
+
 @media (max-width: 768px) {
-    li {
-        font-size: 18px;
-        margin-top: 5%;
-        margin: 5px;
-    }
-
-    ul {
-        flex-direction: column;   /* menú en columna */
-        align-items: center;
-    }
-
-    a {
-        padding: 8px 16px;
-    }
+  .nav-links {
+    flex-direction: column;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    display: none;
+  }
+  .nav-links.open {
+    display: flex;
+  }
 }
 
-@media (max-width: 600px) {
-    #baner {
-        height: 18vh;
-    }
-
-    #pre {
-        height: auto; /* se ajusta al contenido */
-        padding: 20px 0;
-    }
-}
 
